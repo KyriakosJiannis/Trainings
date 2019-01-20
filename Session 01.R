@@ -8,7 +8,7 @@
 version # Version 
 sessionInfo() # R details including packages current in use
 
-# q() # exit R - but it doesn't exit RStudio, for that use Sign Out on the top right of the RStudio IDE
+# q() # exit R
 
 #############
 ## Help
