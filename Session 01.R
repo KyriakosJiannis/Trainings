@@ -37,14 +37,12 @@ source("~/") # to execute external R file
 
 getwd() # what is the currenty working directory?
 setwd("~/") # set working directory
+
 sink("output.txt") # export all output of the script, helpful if you run a script "blind" 
-
-getwd() # the output of this is now sinked
+i <- 1:10
+outer(i,i,"*")
+unlink("output.txt")
 sink() # stop sinking
-
-getwd() # the output of this is now displayed directly
-unlink("output.txt") # delete file
-
 
 #############
 ## Packages/libraries
